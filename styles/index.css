@@ -54,5 +54,7 @@ img{
     }
     img{
         margin: 0% 5%;
+        src: url(../images/Image_small.png) 1px,;
+        src: url(../images/image.png) 2px;
     }
 }
