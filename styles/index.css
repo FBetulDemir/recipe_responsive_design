@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+}
+.logo{
+    margin-left: 10%;
+}
+.nav-links{
+    margin-left: 5%;
+    font-family: "Source Sans 3", sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: #242635;
+}
+.main-info{
+    margin: 20% 15%;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+    align-content: center;
+}
+.main-info h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.arrow{
+    margin-top: 30%;
+}
+img{
+    margin: 5%;
+}
+@media screen and (max-width: 700px){
+    .wrapper{
+        flex-direction: column;
+    }
+}
