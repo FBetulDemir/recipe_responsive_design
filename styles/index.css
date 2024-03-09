@@ -12,6 +12,9 @@
     margin-left: 10%;
 }
 .nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
     margin-left: 5%;
     font-family: "Source Sans 3", sans-serif;
 }
@@ -38,6 +41,7 @@
 }
 img{
     margin: 5%;
+    height: auto;
 }
 @media screen and (max-width: 900px){
     .wrapper{
@@ -50,11 +54,11 @@ img{
     }
     .main-info{
         text-align: center;
-        margin: 0 3%%;
+        margin: 0 3%;
     }
-    img{
+    .image{
         margin: 0% 5%;
-        src: url(../images/Image_small.png) 1px,;
-        src: url(../images/image.png) 2px;
+        src: url(../images/Image_small.png) 1x;
+        src: url(../images/image.png) 2x;
     }
 }
